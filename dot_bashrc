@@ -117,6 +117,7 @@ if ! shopt -oq posix; then
 fi
 
 alias kctl="kubectl"
+alias kns="kubectl get ns"
 alias kgp="kubectl get po"
 alias kgn="kubectl get ns"
 alias kgs="kubectl get svc"
